@@ -7,10 +7,10 @@ Este proyecto utiliza Apache Airflow para orquestar la carga de datos meteoroló
 El proyecto contiene los siguientes componentes principales:
 
 1. **DAGs**: Definición de las tareas y su flujo de trabajo.
-![Tabla de Resultados](src\DAGS.PNG)
+![Image text](src\DAGS.PNG)
 2. **Scripts de conexión y ETL**: Scripts para la conexión a la base de datos y el procesamiento de datos.
 ### Tabla de Resultados
-![Tabla de Resultados](src\Conexion_postgresql.PNG)
+![Image text]('https://raw.githubusercontent.com/agusm95/Clima_airflow_data/main/src/Conexion_postgresql.PNG')
 ![Tabla de Resultados](src/query_clima.PNG.png)
 3. **Configuración**: Archivos de configuración necesarios para conectar y manejar la base de datos.
 
