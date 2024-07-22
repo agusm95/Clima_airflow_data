@@ -10,7 +10,7 @@ El proyecto contiene los siguientes componentes principales:
    ![DAGs](src/DAGS.PNG)
 2. **Scripts de Conexión y ETL**: Scripts para la conexión a la base de datos y el procesamiento de datos.
    ![Scripts de Conexión](https://raw.githubusercontent.com/agusm95/Clima_airflow_data/main/src/Conexion_postgresql.PNG)
-   ![Scripts ETL](src/query_clima.PNG)
+
 3. **Configuración**: Archivos de configuración necesarios para conectar y manejar la base de datos.
 
 ## Contenido
@@ -35,3 +35,6 @@ Este DAG se encarga de la carga de datos de temperatura desde una fuente de dato
 3. **ejecutar_script_etl**:
    - Ejecuta el script ETL para cargar los datos de mediciones de temperatura.
    - **Función**: `ejecutar_load_measuments_data`
+
+   Carga en la base de datos los climas de las ciudades
+   ![Scripts ETL](src/query_clima.PNG)
